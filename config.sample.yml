@@ -1,0 +1,10 @@
+---
+powermax:
+  address: "192.168.10.10" # Unisphere IP/FQDN
+  user: "smc" # Unisphere user name
+  password: "smc" # Unisphere password
+  symmid: "000111111111" # PowerMax Symmetric ID
+exporter:
+  target: "storagegroup" # Choice: array, cache, feport, beport, storagegroup
+  update: true # If resources list need to be updated (every 10 x minutes), only valid for storage group
+  port: 9100 # Exporter listening port
